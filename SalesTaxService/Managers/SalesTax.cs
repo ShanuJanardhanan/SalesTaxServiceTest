@@ -82,8 +82,8 @@ namespace SalesTaxService.Managers
                 var expenseElement = root.Descendants("expense").FirstOrDefault();
 
 
-                var costCentreElement = expenseElement.Descendants("cost_centre").FirstOrDefault();
-                var totalElement = expenseElement.Descendants("total").FirstOrDefault();
+                 var costCentreElement = expenseElement!=null? expenseElement.Descendants("cost_centre").FirstOrDefault():null;
+                 var totalElement = expenseElement != null ? expenseElement.Descendants("total").FirstOrDefault() : null;
                 var vendorElement = root.Descendants("vendor").FirstOrDefault();
                 var descriptionElement = root.Descendants("description").FirstOrDefault();
                 var dateElement = root.Descendants("date").FirstOrDefault();

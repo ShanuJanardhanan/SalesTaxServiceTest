@@ -1,0 +1,27 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/salesTax/v17
+*.config
+*.suo
+/SalesTaxService/bin/Debug/net8.0/SalesTaxService.dll
+/SalesTaxService/bin/Debug/net8.0/SalesTaxService.exe
+/SalesTaxService/bin/Debug/net8.0/SalesTaxService.pdb
+*.vsidx
+/SalesTaxService/obj/Debug/net8.0/ref/SalesTaxService.dll
+/SalesTaxService/obj/Debug/net8.0/refint/SalesTaxService.dll
+*.cs
+/SalesTaxService/obj/Debug/net8.0/apphost.exe
+/SalesTaxService/obj/Debug/net8.0/SalesTaxService.AssemblyInfoInputs.cache
+/SalesTaxService/obj/Debug/net8.0/SalesTaxService.AssemblyInfo.cs
+*.json
+/SalesTaxService/obj/Debug/net8.0/SalesTaxService.pdb
+/SalesTaxService/obj/Debug/net8.0/SalesTaxService.assets.cache
+/SalesTaxService/obj/Debug/net8.0/SalesTaxService.csproj.FileListAbsolute.txt
+/SalesTaxService/obj/Debug/net8.0/SalesTaxService.dll
+/SalesTaxService/obj/Debug/net8.0/SalesTaxService.GeneratedMSBuildEditorConfig.editorconfig
+/SalesTaxService/obj/Debug/net8.0/SalesTaxService.genruntimeconfig.cache
+/SalesTaxService/obj/project.assets.json
+/SalesTaxService/obj/project.nuget.cache
+/SalesTaxService/obj/SalesTaxService.csproj.nuget.dgspec.json
